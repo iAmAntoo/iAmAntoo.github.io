@@ -372,7 +372,7 @@
   overflow: visible;
 }
 :root .searchResultsWrap-3-pOjs::before {
-  content: "Search results";
+  content: "Risultati della Ricerca";
   position: absolute;
   top: -60px;
   z-index: 1;
