@@ -1502,4 +1502,31 @@
     font-size: 10px;
     font-weight: 600;
   }
+  .scroller-2n3G0k {
+    max-height: 220px; padding-left: 8px;
+  }
+  .voiceUsers-2V7vuh {
+    grid-template-columns: repeat(4,48px); gap: 8px;
+  }
+  .voiceUsers-2V7vuh > .avatarContainer-2LLZwy > .avatar-3Heyg_{
+    height: 48px; width: 48px;
+  }
+  .voiceUsers-2V7vuh > .avatarContainer-2LLZwy > .avatar-3Heyg_ > .avatarIconOverlay-2nbU5G{
+    height: 32px; width: 32px; padding: 8px;
+  }
+  .voiceUsers-2V7vuh > .avatarContainer-2LLZwy > .speaking-3dBKhR{
+    box-shadow: inset 0 0 0 3px #3ba55c,inset 0 0 0 4px #000000;
+  }
+  .voiceUsers-2V7vuh > .expandButton-2hkuXA {
+    grid-row: 2; grid-column: 4;
+    height: 48px; width: 48px;
+  }
+  .voiceUsers-2V7vuh > .expandButton-2hkuXA > svg{
+    height: 32px; width: 32px;
+  }
+  .voiceUsers-2V7vuh > .avatarContainer-2LLZwy, 
+  .voiceUsers-2V7vuh > .avatarContainer-2LLZwy > .avatar-3Heyg_,
+  .voiceUsers-2V7vuh > .expandButton-2hkuXA {
+    border-radius: var(5px);
+  }
 }
