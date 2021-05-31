@@ -1529,4 +1529,8 @@
   .voiceUsers-2V7vuh > .expandButton-2hkuXA {
     border-radius: var(5px);
   }
+  
+  .container-1giJp5 {display:flex;flex-direction:column;}
+  .container-1giJp5 > .voiceUsers-YsH5Db {order:0;margin-bottom:8px;}
+  .container-1giJp5 > .connection-3KRENF, .container-1giJp5 > .actionButtons-14eAc_ {order:1;width:224px;}
 }
