@@ -1233,7 +1233,7 @@
   background-color: var(--background-primary);
 }
 :root .nowPlayingColumn-2sl4cE::before {
-  content: "Friends activity";
+  content: "Attività degli Amici";
   position: absolute;
   top: -60px;
   z-index: -1;
