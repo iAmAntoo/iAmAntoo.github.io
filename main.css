@@ -467,7 +467,7 @@
 }
 
 :root .membersWrap-2h-GB4::before {
-  content: "Member list";
+  content: "Lista dei Membri";
   position: absolute;
   top: -60px;
   z-index: 1;
