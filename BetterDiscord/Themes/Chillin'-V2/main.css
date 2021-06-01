@@ -1430,7 +1430,7 @@
 [data-user-id="536964211058933789"] .overflow-WK9Ogt,
 [aria-label^=PANIC] .overflow-WK9Ogt {
   animation: flow 5s ease-in-out infinite;
-  background: linear-gradient(-60deg, rgb(3, 252, 28) 40%, rgb(34, 110, 42) 80%, rgb(3, 252, 28) 100%);
+  background: linear-gradient(-60deg, rgb(255, 0, 0) 40%, rgb(136, 0, 0) 80%, rgb(255, 0, 0) 100%);
   background-size: 300%;
   -webkit-background-clip: text;
   background-clip: text;
