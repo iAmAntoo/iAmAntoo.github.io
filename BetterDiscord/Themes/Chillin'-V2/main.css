@@ -1506,4 +1506,7 @@
   .circleIconButton-1QV--U {background-color: transparent !important}
   .circleIconButton-1QV--U:hover {background-color: #1E2233 !important}
 
+  #bfredux::before {
+    background: var(--channeltextarea-background);
+  }
 }
