@@ -583,21 +583,12 @@
 :root .userPopout-3XzG_A {
   overflow: hidden;
   transform: translateZ(0) !important;
-  --USRBG-banner-height: 60px;
-}
-:root .userPopout-3XzG_A[style*=-user-] {
-  --USRBG-banner-height: 120px;
-  --USRBG-avatar-offset: 76px;
 }
 :root .userPopout-3XzG_A[style*=-user-] .profileBanner-33-uE1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: var(--user-popout-position, center) center;
   background-image: var(--user-background);
-  height: var(--USRBG-banner-height, 120px);
-}
-:root .userPopout-3XzG_A[style*=-user-] .avatarWrapperNormal-2tu8Ts {
-  top: var(--USRBG-avatar-offset, 76px);
 }
 :root .userPopout-3XzG_A:not([style*=-user-]) .avatar-22FtUu::after {
   content: "";
@@ -606,7 +597,6 @@
   left: 0;
   width: 100%;
   z-index: -1;
-  height: var(--USRBG-banner-height, 60px);
   pointer-events: none;
   background-size: cover;
   background-repeat: no-repeat;
