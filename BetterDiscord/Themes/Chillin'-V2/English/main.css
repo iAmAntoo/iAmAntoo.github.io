@@ -919,14 +919,6 @@
 :root .connectionHeader-2MDqhu {
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
-:root .premiumTabItem-1QTfBr .flex-1xMQg5 {
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-}
-:root .premiumTabItemLink-3IZzin .icon-Zc-uZZ {
-  fill: var(--background-accent) !important;
-  margin-right: 5px;
-}
 :root .feature-2w65J5, :root .hero-EvfTTA {
   border-radius: var(--border-radius);
 }
