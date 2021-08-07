@@ -1,144 +1,347 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="HTTrack is an easy-to-use website mirror utility. It allows you to download a World Wide website from the Internet to a local directory,building recursively all structures, getting html, images, and other files from the server to your computer. Links are rebuiltrelatively so that you can freely browse to the local site (works with any browser). You can mirror several sites together so that you can jump from one toanother. You can, also, update an existing mirror site, or resume an interrupted download. The robot is fully configurable, with an integrated help" />
-	<meta name="keywords" content="httrack, HTTRACK, HTTrack, winhttrack, WINHTTRACK, WinHTTrack, offline browser, web mirror utility, aspirateur web, surf offline, web capture, www mirror utility, browse offline, local  site builder, website mirroring, aspirateur www, internet grabber, capture de site web, internet tool, hors connexion, unix, dos, windows 95, windows 98, solaris, ibm580, AIX 4.0, HTS, HTGet, web aspirator, web aspirateur, libre, GPL, GNU, free software" />
-	<title>Local index - HTTrack Website Copier</title>
-  <!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
-	<style type="text/css">
-	<!--
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-body {
-	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
-	background: #77b;
-}
-body, td {
-	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-	}
+  <title>Fortnite-API</title>
+  <meta name="keywords" content="fortntie-api, fortnite api, fortntieapi, fortntie, api, epic games">
+  <meta name="theme-color" content="#88ed0d">
+  <meta property="og:url" content="https://fortnite-api.com">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@Fortnite_API">
+  <meta name="twitter:title" content="Fortnite-API">
+  <meta property="og:title" content="Fortnite-API">
+  <meta name="description" content="A powerful Fortnite API containing data of all cosmetics, daily shop, player stats, news, gamemodes and more!">
+  <meta name="twitter:description" content="A powerful Fortnite API containing data of all cosmetics, daily shop, player stats, news, gamemodes and more!">
+  <meta property="og:description" content="A powerful Fortnite API containing data of all cosmetics, daily shop, player stats, news, gamemodes and more!">
+  <meta name="twitter:image" content="https://fortnite-api.com/assets/img/logo.png?v=2021_7">
+  <meta property="og:image" content="https://fortnite-api.com/assets/img/logo.png?v=2021_7">
 
-#subTitle {
-	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
-	}
+  <!-- Favicons -->
+  <link href="assets/img/logo_128.png?v=2021_7" rel="icon" type="image/png">
+  <link href="assets/img/logo_128.png?v=2021_7" rel="apple-touch-icon">
 
-#siteNavigation a, #siteNavigation .current {
-	font-weight: bold;  color: #448;
-	}
-#siteNavigation a:link    { text-decoration: none; }
-#siteNavigation a:visited { text-decoration: none; }
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap">
+  <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap">
 
-#siteNavigation .current { background-color: #ccd; }
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css?v=2021_7" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css?v=2021_7" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css?v=2021_7" rel="stylesheet">
+  <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
+  <link href="assets/vendor/glightbox/css/glightbox.min.css?v=2021_7" rel="stylesheet">
+  <!-- <link href="assets/vendor/remixicon/remixicon.css?v=2021_7" rel="stylesheet"> -->
+  <link href="assets/vendor/swiper/swiper-bundle.min.css?v=2021_7" rel="stylesheet">
 
-#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
-#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
-
-
-a:link    { text-decoration: underline;  color: #00f; }
-a:visited { text-decoration: underline;  color: #000; }
-a:hover   { text-decoration: underline;  color: #c00; }
-a:active  { text-decoration: underline; }
-
-#pageContent {
-	clear: both;
-	border-bottom: 6px solid #000;
-	padding: 10px;  padding-top: 20px;
-	line-height: 1.65em;
-	background-image: url(backblue.gif);
-	background-repeat: no-repeat;
-	background-position: top right;
-	}
-
-#pageContent, #siteNavigation {
-	background-color: #ccd;
-	}
-
-
-.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
-.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
-
-hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
-
-h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
-h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
-h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
-h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
-
-.blak { background-color: #000; }
-.hide { display: none; }
-.tableWidth { min-width: 400px; }
-
-.tblRegular       { border-collapse: collapse; }
-.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
-.tblHeaderColor, .tblHeaderColor td { background: #99c; }
-.tblNoBorder td   { border: 0; }
-
-
-// -->
-</style>
-
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css?v=2021_7" rel="stylesheet">
 </head>
 
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
-	<tr>
-	<td id="subTitle">HTTrack Website Copier - Open Source offline browser</td>
-	</tr>
-</table>
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
-<tr class="blak">
-<td>
-	<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
-	<tr>
-	<td colspan="6"> 
-		<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
-		<tr> 
-		<td id="pageContent"> 
-<!-- ==================== End prologue ==================== -->
+<body>
 
-	<meta name="generator" content="HTTrack Website Copier/3.x">
-	<TITLE>Local index - HTTrack</TITLE>
-</HEAD>
-<BODY>
-<H1 ALIGN=Center>Index of locally available sites:</H1>
-	<TABLE BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="0">
-		<TR>
-			<TD BACKGROUND="fade.gif">
-				&middot;
-					<A HREF="fortnite-api.com/index.html">
-						Fortnite-API
-					</A>		
-			</TD>
-		</TR>
-	</TABLE>
-	<BR>
-	<BR>
-	<BR>
-  	<H6 ALIGN="RIGHT">
-	<I>Mirror and index made by HTTrack Website Copier [XR&amp;CO'2008]</I>
-	</H6>
-	<!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
-	<!-- Thanks for using HTTrack Website Copier! -->
-	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=fortnite-api.com/index.html">
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
 
+      <div class="logo">
+        <h1><a href=""><span>Fortnite-API</span></a></h1>
+      </div>
 
-<!-- ==================== Start epilogue ==================== -->
-		</td>
-		</tr>
-		</table>
-	</td>
-	</tr>
-	</table>
-</td>
-</tr>
-</table>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#features">Features</a></li>
+          <li><a class="nav-link scrollto" href="#faq">F.A.Q</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link" href="https://dash.fortnite-api.com/">Dashboard / Docs</a></li>
+          <li class="dropdown"><a href="#"><span>External Links</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://discord.com/invite/AqzEcMm">Discord</a></li>
+              <li><a href="https://twitter.com/Fortnite_API">Twitter</a></li>
+              <li><a href="https://github.com/Fortnite-API">Github</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
-<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
-	<tr>
-	<td id="footer"><small>&copy; 2008 Xavier Roche & other contributors - Web Design: Leto Kauler.</small></td>
-	</tr>
-</table>
+    </div>
+  </header><!-- End Header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out">
+            <h1>Build your apps with <span>Fortnite-API</span></h1>
+            <h2>A powerful Fortnite API containing data of all cosmetics, daily shop, player stats, news, gamemodes and more!</h2>
+            <div class="text-center text-lg-start">
+              <a href="#features" class="btn-get-started scrollto">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+          <img src="assets/img/logo_transparent.png?v=2021_7" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Placeholder Section ======= -->
+    <section id="placeholder" class="placeholder">
+      <div class="container"></div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Features</h2>
+          <p>API Endpoints / Features</p>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
+              <i class="bi bi-palette" style="color: #ffbb2c;"></i>
+              <h3>Cosmetics</h3>
+              <p>Data of all in-game cosmetics including leaked/unreleased items</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0 d-flex">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <i class="bi bi-shop" style="color: #5578ff;"></i>
+              <h3>Item Shop</h3>
+              <p>Data of the daily & featured item shop which gets automatically updated at 0:00 AM UTC</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0 d-flex">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bi bi-graph-up" style="color: #e80368;"></i>
+              <h3>Player Stats</h3>
+              <p>Data of battle royale player stats including with optional image generation (<a target="_blank" href="https://cdn.fortnite-api.com/stats/v1/4dd81ae4c613dd392fa2aa24da6488ec38d29130.png">example</a>)</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 d-flex">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <i class="bi bi-newspaper" style="color: #e361ff;"></i>
+              <h3>News</h3>
+              <p>Data of battle royale, save the world &amp; creative news with automatically generated GIFs (<a target="_blank" href="https://cdn.fortnite-api.com/news/v2/2cec841b3170ac0d5fa2a9bb949c9899eae9c65d_031ed7bc33bda486420ae637b9e345fba164d264.gif">example</a>)</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 d-flex">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
+              <i class="bi bi-controller" style="color: #47aeff;"></i>
+              <h3>Playlists</h3>
+              <p>Data of all playlists (gamemodes)</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 d-flex">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <i class="bi bi-map" style="color: #ffa76e;"></i>
+              <h3>Minimap</h3>
+              <p>Data of the current minimap with POIs and automatically generated POI images (<a target="_blank" href="https://fortnite-api.com/images/map_en.png">example</a>)</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 d-flex">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="350">
+              <i class="bi bi-person-badge-fill" style="color: #11dbcf;"></i>
+              <h3>Banners</h3>
+              <p>Data of all profile banners</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 d-flex">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+              <i class="bi bi-key" style="color: #4233ff;"></i>
+              <h3>AES Keys</h3>
+              <p>Data of all AES keys which can be used to decrypt the game's pak files</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 d-flex">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="450">
+              <i class="bi bi-badge-cc" style="color: #b2904f;"></i>
+              <h3>Creator Code</h3>
+              <p>Data of a creator code such as the status and info of its account</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Team</h2>
+          <p>Our Great Team</p>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic">
+                <video autoplay loop muted playsinline class="img-fluid">
+                  <source src="assets/img/team/officer.webm" type="video/webm">
+                </video>
+                <!-- <img src="assets/img/team/officer.gif" class="img-fluid" alt=""> -->
+              </div>
+              <div class="member-info">
+                <h4>Officer</h4>
+                <span>Developer & CEO</span>
+                <div class="social">
+                  <a href="https://twitter.com/Not0fficer"><i class="bi bi-twitter"></i></a>
+                  <a href="https://github.com/NotOfficer"><i class="bi bi-github"></i></a>
+                  <a href="https://discords.com/bio/p/officer"><i class="bi bi-discord"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic">
+                <video autoplay loop muted playsinline class="img-fluid">
+                  <source src="assets/img/team/luc1412.webm" type="video/webm">
+                </video>
+                <!-- <img src="assets/img/team/luc1412.gif" class="img-fluid" alt=""> -->
+              </div>
+              <div class="member-info">
+                <h4>Luc1412</h4>
+                <span>Admin</span>
+                <div class="social">
+                  <a href="https://twitter.com/luc141201"><i class="bi bi-twitter"></i></a>
+                  <a href="https://github.com/Luc1412"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/lucas-hardt-06175b177/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Fortnite-API</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Fortnite-API is a non-official API and not endorsed by Epic Games in any way.<br/>
+        Epic Games, Fortnite, and all associated properties are trademarks or registered trademarks of Epic Games, Inc.
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js?v=2021_7"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js?v=2021_7"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js?v=2021_7"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js?v=2021_7"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js?v=2021_7"></script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"67b04014c9be0e1a","token":"70514d317b3f4baf82985a4c92655e47","version":"2021.7.0","si":10}'></script>
 </body>
 
 </html>
-
-
